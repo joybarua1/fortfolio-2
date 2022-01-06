@@ -99,19 +99,32 @@ h1 span{
     font-size: 50px;
     font-weight: bold; 
 }
-   
+.about-me{
+    background-image: url(images/pictures/parallax-img.jpg);
+    padding-top: 30px;
+    padding-bottom: 200px ;
+} 
+.about-me h1{
+    text-align: center;
+    color: white;
+}
+.about-me p{
+    text-align: center;
+    color: white;
+    width: 30%;
+    margin: auto;
+}
 .footer{
-    width: 100%;
-    background-color: black;
-    padding-bottom: 50px;
+    padding-bottom: 50px; 
     
 }
 .footer h1{
     text-align: center;
-    color: white;
+    color: black;
     padding-top: 50px;
 }
 .footer p{
     text-align: center;
-    color: white;
+    color: black;
+    font-weight: bold;
 }
